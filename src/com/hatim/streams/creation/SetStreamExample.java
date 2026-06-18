@@ -1,7 +1,5 @@
 package com.hatim.streams.creation;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.Set;
 
 public class SetStreamExample {
