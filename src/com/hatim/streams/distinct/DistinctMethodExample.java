@@ -1,6 +1,5 @@
 package com.hatim.streams.distinct;
 
-import java.awt.image.AreaAveragingScaleFilter;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
