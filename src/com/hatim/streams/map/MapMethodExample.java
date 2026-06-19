@@ -1,7 +1,5 @@
 package com.hatim.streams.map;
 
-import com.hatim.streams.filters.FilterMethodExample;
-
 import java.util.Arrays;
 import java.util.List;
 
