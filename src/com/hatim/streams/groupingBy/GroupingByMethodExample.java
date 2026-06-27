@@ -1,4 +1,4 @@
-package com.hatim.streams.collectors;
+package com.hatim.streams.groupingBy;
 
 import java.util.*;
 import java.util.stream.Collectors;
