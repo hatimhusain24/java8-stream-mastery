@@ -2,8 +2,7 @@ package com.hatim.streams.optional;
 
 import com.hatim.streams.Employee;
 
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 public class OptionalMethodExample {
     public static void main(String[] args) throws Exception {
@@ -54,5 +53,6 @@ public class OptionalMethodExample {
 
         Optional<Integer> result10 = employees.stream().map(Employee::getId).filter(id -> id == 10).findFirst();
         System.out.println(result10);
+
     }
 }
