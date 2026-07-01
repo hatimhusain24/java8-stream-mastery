@@ -73,6 +73,14 @@ public class OptionalAdvancedExample {
 
         String result9b = name.orElseGet(OptionalAdvancedExample::getDefaultName);
         System.out.println(result9b);
+
+        // 10. map chaining
+        String res = employees.stream()
+                .map(Employee::getName)
+                .map(String::toUpperCase)
+                .findFirst()
+                .orElse("Unknown");
+        System.out.println(res);
     }
 
     private static String getDefaultName() {
